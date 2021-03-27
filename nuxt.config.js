@@ -1,5 +1,5 @@
 export default {
-  ssr: false,
+  ssr: true,
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -32,7 +32,7 @@ export default {
       { src: '/js/jquery.countdown.js', body: true },
       { src: '/js/masonry.pkgd.min.js', body: true },
       { src: '/js/magnific-popup.min.js', body: true },
-      { src: '/js/main.js', body: true }
+      { src: '/js/main.js', defer: true, body: true }
     ]
   },
 
