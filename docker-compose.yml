@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  nuxt:
+    build: .
+    container_name: ia_front
+    restart: always
+    ports:
+      - "6001:6001"
+    expose:
+      - "6001"
+    command:
+      "npm run start"
+    environment:
+      VIRTUAL_HOST: ia.bcc.anapolis.ifg.edu.br
+      HTTP_PORT: 6001
+      LETSENCRYPT_HOST: ia.bcc.anapolis.ifg.edu.br
+      LETSENCRYPT_EMAIL: "bcc@gmail.com"
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
