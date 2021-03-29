@@ -1806,3 +1806,11 @@ ul, ol {
     padding-left: 0
   }
 }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: transparent !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background: transparent !important;
+}

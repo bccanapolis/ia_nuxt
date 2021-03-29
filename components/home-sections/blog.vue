@@ -8,7 +8,7 @@
       <div class='row'>
         <div class='col-xl-6'>
           <div class='blog-item'>
-            <div class='blog-thumb set-bg' data-setbg='/img/blog/1.jpg'></div>
+            <div class='blog-thumb set-bg' style='background-image: url(/img/blog/1.jpg)'></div>
             <div class='blog-content'>
               <h4>Parents who try to be their children’s best friends</h4>
               <div class='blog-meta'>
@@ -22,7 +22,7 @@
         </div>
         <div class='col-xl-6'>
           <div class='blog-item'>
-            <div class='blog-thumb set-bg' data-setbg='/img/blog/2.jpg'></div>
+            <div class='blog-thumb set-bg' style='background-image: url(/img/blog/2.jpg)'></div>
             <div class='blog-content'>
               <h4>Graduations could be delayed as external examiners</h4>
               <div class='blog-meta'>
@@ -36,7 +36,7 @@
         </div>
         <div class='col-xl-6'>
           <div class='blog-item'>
-            <div class='blog-thumb set-bg' data-setbg='/img/blog/3.jpg'></div>
+            <div class='blog-thumb set-bg'style='background-image: url(/img/blog/3.jpg)'></div>
             <div class='blog-content'>
               <h4>Private schools adopt a Ucas style application system</h4>
               <div class='blog-meta'>
@@ -50,7 +50,7 @@
         </div>
         <div class='col-xl-6'>
           <div class='blog-item'>
-            <div class='blog-thumb set-bg' data-setbg='/img/blog/4.jpg'></div>
+            <div class='blog-thumb set-bg' style='background-image: url(/img/blog/4.jpg)'></div>
             <div class='blog-content'>
               <h4>Cambridge digs in at the top of university league table</h4>
               <div class='blog-meta'>

@@ -1,5 +1,5 @@
 <template>
-  <section class='enroll-section spad set-bg' data-setbg='/img/enroll-bg.jpg'>
+  <section class='enroll-section spad set-bg' style='background-image: url(/img/enroll-bg.jpg)'>
     <div class='container'>
       <div class='row'>
         <div class='col-lg-5'>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero />
-    <Counter date_countdown='2021/03/31' />
+<!--    <Counter date_countdown='2021/03/31' />-->
     <Service />
     <Enroll />
     <Courses />
