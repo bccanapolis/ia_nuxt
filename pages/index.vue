@@ -3,12 +3,12 @@
     <Hero />
 <!--    <Counter date_countdown='2021/03/31' />-->
     <Service />
-    <Enroll />
-    <Courses />
-    <Fact />
-    <Event />
-    <Gallery />
-    <Blog />
+<!--    <Enroll />-->
+<!--    <Courses />-->
+<!--    <Fact />-->
+<!--    <Event />-->
+<!--    <Gallery />-->
+<!--    <Blog />-->
     <Newsletter />
   </div>
 </template>

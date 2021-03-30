@@ -1,10 +1,6 @@
 <template>
   <section class='service-section spad'>
     <div class='container services'>
-      <div class='section-title text-center'>
-        <h3>OUR SERVICES</h3>
-        <p>We provides the opportunity to prepare for life</p>
-      </div>
       <div class='row'>
         <div class='col-sm-6 service-item'>
           <div class='service-icon'>
