@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero />
+<!--    <Hero />-->
 <!--    <Counter date_countdown='2021/03/31' />-->
     <Service />
 <!--    <Enroll />-->
