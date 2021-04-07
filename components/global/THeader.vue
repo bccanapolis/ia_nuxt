@@ -1,7 +1,11 @@
 <template>
   <header class="header-section">
     <div class="container">
-      <a class="site-logo text-dark font-weight-bold" href="index-2.html">
+      <a
+        href="http://ifg.edu.br/"
+        target="_blank"
+        class="site-logo text-dark font-weight-bold"
+      >
         <img
           src="/img/logo_ifg.svg"
           style="height: 4rem"
@@ -9,18 +13,22 @@
         />
       </a>
 
-      <div class="nav-switch">
+      <!-- <div class="nav-switch">
         <i class="fa fa-bars"></i>
-      </div>
-      <div class="header-info d-flex align-items-center" style="height: 5rem">
-        <div class="hf-item">
-          <a
-            class="text-dark font-weight-bold align-baseline"
-            style="font-size: 2rem"
-            href="index-2.html"
-          >
-            Inteligencia <span style="color: #045b6e">Artificial Aplicada</span>
-          </a>
+      </div> -->
+      <div
+        class="header-info d-flex align-items-center float-left float-md-right"
+        style="height: 5rem"
+      >
+        <div class="hf-item ml-0">
+          <nuxt-link to="/">
+            <a
+              class="text-dark font-weight-bold align-baseline"
+              style="font-size: 2rem"
+            >
+              Inteligencia <span style="color: #045b6e">Artificial</span>
+            </a>
+          </nuxt-link>
         </div>
       </div>
       <!--      <div class='header-info'>-->

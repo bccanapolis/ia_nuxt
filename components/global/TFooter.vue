@@ -2,7 +2,7 @@
   <footer class="footer-section">
     <div class="container footer-top">
       <div class="row">
-        <div class="col-sm-6 col-lg-3 footer-widget">
+        <div class="col-sm-6 col-lg-6 footer-widget">
           <div class="about-widget">
             <a class="site-logo text-dark font-weight-bold" href="index-2.html">
               <img
@@ -11,21 +11,26 @@
                 alt="Instituto Federal de Goiás"
               />
             </a>
-            <p>
+            <!-- <p>
               orem ipsum dolor sit amet, consecter adipiscing elite. Donec minos
               varius, viverra justo ut, aliquet nisl.
-            </p>
-            <div class="social pt-1">
+            </p> -->
+            <!-- <div class="social pt-1">
               <a href="#"><i class="fa fa-twitter-square"></i></a>
               <a href="#"><i class="fa fa-facebook-square"></i></a>
               <a href="#"><i class="fa fa-google-plus-square"></i></a>
               <a href="#"><i class="fa fa-linkedin-square"></i></a>
               <a href="#"><i class="fa fa-rss-square"></i></a>
-            </div>
+            </div> -->
           </div>
         </div>
 
-        <div class="col-sm-6 col-lg-3 footer-widget">
+        <div class="col-3 offset-3 footer-widget">
+          <h6 class="fw-title">Site em construção!</h6>
+          <p>Mais informações e funcionalidades serão inseridas em breve.</p>
+        </div>
+
+        <!-- <div class="col-sm-6 col-lg-3 footer-widget">
           <h6 class="fw-title">USEFUL LINK</h6>
           <div class="dobule-link">
             <ul>
@@ -43,8 +48,8 @@
               <li><a href="#">Site map</a></li>
             </ul>
           </div>
-        </div>
-
+        </div> -->
+        <!-- 
         <div class="col-sm-6 col-lg-3 footer-widget">
           <h6 class="fw-title">RECENT POST</h6>
           <ul class="recent-post">
@@ -95,16 +100,16 @@
               </p>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
 
     <div class="copyright">
       <div class="container">
         <p>
-          Copyright &copy; {{ new Date().getFullYear() }} All rights reserved |
-          This template is made with
-          <i aria-hidden="true" class="fa fa-heart-o"></i> by
+          Copyright &copy; {{ new Date().getFullYear() }} Todos direitos
+          Reservados | Este template é feito com
+          <i aria-hidden="true" class="fa fa-heart-o"></i> por
           <a href="https://colorlib.com/" target="_blank">Colorlib</a>
         </p>
       </div>

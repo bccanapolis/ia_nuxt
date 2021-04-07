@@ -1707,6 +1707,11 @@ ol {
     background-color: transparent;
   }
 
+  .main-menu li.active a {
+    background: #fff;
+    color: #045b6e;
+  }
+
   .hs-item {
     min-height: auto;
     padding: 100px 0;
