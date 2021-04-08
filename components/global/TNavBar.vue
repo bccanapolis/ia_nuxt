@@ -29,6 +29,7 @@ export default {
       { name: 'Cursos', route: '/cursos' },
       { name: 'Projetos', route: '/projetos' },
       { name: 'Professores', route: '/professores' },
+      { name: 'Pós Graduação', route: '/pos-graduacao' },
     ],
   }),
 }

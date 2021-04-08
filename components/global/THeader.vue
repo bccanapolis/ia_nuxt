@@ -26,7 +26,7 @@
               class="text-dark font-weight-bold align-baseline"
               style="font-size: 2rem"
             >
-              Inteligencia <span style="color: #045b6e">Artificial</span>
+              Inteligência <span style="color: #045b6e">Artificial</span>
             </a>
           </nuxt-link>
         </div>

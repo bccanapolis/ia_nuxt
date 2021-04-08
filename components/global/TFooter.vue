@@ -1,14 +1,14 @@
 <template>
-  <footer class="footer-section">
-    <div class="container footer-top">
-      <div class="row">
-        <div class="col-sm-6 col-lg-6 footer-widget">
-          <div class="about-widget">
-            <a class="site-logo text-dark font-weight-bold" href="index-2.html">
+  <footer class='footer-section'>
+    <div class='container footer-top'>
+      <div class='row'>
+        <div class='col-sm-6 col-lg-6 footer-widget'>
+          <div class='about-widget'>
+            <a class='site-logo text-dark font-weight-bold' href='index-2.html'>
               <img
-                src="/img/logo_ifg_light.svg"
-                style="height: 4rem"
-                alt="Instituto Federal de Goiás"
+                src='/img/logo_ifg_light.svg'
+                style='height: 4rem'
+                alt='Instituto Federal de Goiás'
               />
             </a>
             <!-- <p>
@@ -25,8 +25,8 @@
           </div>
         </div>
 
-        <div class="col-3 offset-3 footer-widget">
-          <h6 class="fw-title">Site em construção!</h6>
+        <div class='col-md-3 offset-md-3 footer-widget'>
+          <h6 class='fw-title'>Site em construção!</h6>
           <p>Mais informações e funcionalidades serão inseridas em breve.</p>
         </div>
 
@@ -49,7 +49,7 @@
             </ul>
           </div>
         </div> -->
-        <!-- 
+        <!--
         <div class="col-sm-6 col-lg-3 footer-widget">
           <h6 class="fw-title">RECENT POST</h6>
           <ul class="recent-post">
@@ -104,13 +104,11 @@
       </div>
     </div>
 
-    <div class="copyright">
-      <div class="container">
+    <div class='copyright'>
+      <div class='container'>
         <p>
           Copyright &copy; {{ new Date().getFullYear() }} Todos direitos
-          Reservados | Este template é feito com
-          <i aria-hidden="true" class="fa fa-heart-o"></i> por
-          <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+          Reservados | Construído pelo aluno <a href='https://baraus.dev/' target='_blank'>BARAUS</a>
         </p>
       </div>
     </div>
@@ -119,7 +117,7 @@
 
 <script>
 export default {
-  name: 'TFooter',
+  name: 'TFooter'
 }
 </script>
 

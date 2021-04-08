@@ -1,24 +1,22 @@
 <template>
   <div>
-    <section class="hero-section py-5 my-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="my-5 py-3"></div>
-            <h1 class="text-center">
-              Atuações do IFG na área de Inteligência Artificial.
-            </h1>
-            <div class="my-5 py-3"></div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Hero />
+    <Service />
+    <News />
+    <Definition />
+    <Team />
   </div>
 </template>
 
 <script>
+import Hero from '~/components/home-sections/hero'
+import Service from '~/components/home-sections/service'
+import Definition from '~/components/home-sections/definition'
+import Team from '~/components/home-sections/team'
+import News from '~/components/home-sections/news'
+
 export default {
   name: 'Home',
-  components: {},
+  components: { News, Team, Definition, Service, Hero }
 }
 </script>

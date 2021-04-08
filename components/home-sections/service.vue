@@ -2,22 +2,32 @@
   <section class='service-section spad'>
     <div class='container services'>
       <div class='row'>
-        <div class='col-sm-6 service-item'>
+        <div class='col-sm-4 service-item'>
           <div class='service-icon'>
             <img alt='1' src='/img/services-icons/1.png'>
           </div>
           <div class='service-content'>
-            <h4>Cursos</h4>
+            <h4>Objetivo do Curso</h4>
             <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos
               cursus lania.</p>
           </div>
         </div>
-        <div class='col-sm-6 service-item'>
+        <div class='col-sm-4 service-item'>
           <div class='service-icon'>
             <img alt='1' src='/img/services-icons/2.png'>
           </div>
           <div class='service-content'>
-            <h4>Projetos</h4>
+            <h4>Como Surgiu a Idéia</h4>
+            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos
+              cursus lania.</p>
+          </div>
+        </div>
+        <div class='col-sm-4 service-item'>
+          <div class='service-icon'>
+            <img alt='1' src='/img/services-icons/2.png'>
+          </div>
+          <div class='service-content'>
+            <h4>Formação do Egresso</h4>
             <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos
               cursus lania.</p>
           </div>
