@@ -1,85 +1,55 @@
 <template>
   <section class='service-section spad'>
     <div class='container services'>
-      <div class='row'>
-        <div class='col-sm-4 service-item'>
-          <div class='service-icon'>
-            <img alt='1' src='/img/services-icons/1.png'>
-          </div>
-          <div class='service-content'>
-            <h4>Objetivo do Curso</h4>
-            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos
-              cursus lania.</p>
-          </div>
-        </div>
-        <div class='col-sm-4 service-item'>
-          <div class='service-icon'>
-            <img alt='1' src='/img/services-icons/2.png'>
-          </div>
-          <div class='service-content'>
-            <h4>Como Surgiu a Idéia</h4>
-            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos
-              cursus lania.</p>
-          </div>
-        </div>
-        <div class='col-sm-4 service-item'>
-          <div class='service-icon'>
-            <img alt='1' src='/img/services-icons/2.png'>
-          </div>
-          <div class='service-content'>
-            <h4>Formação do Egresso</h4>
-            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos
-              cursus lania.</p>
-          </div>
-        </div>
-<!--        <div class='col-lg-4 col-sm-6 service-item'>-->
-<!--          <div class='service-icon'>-->
-<!--            <img alt='1' src='/img/services-icons/3.png'>-->
-<!--          </div>-->
-<!--          <div class='service-content'>-->
-<!--            <h4>Activity Hub</h4>-->
-<!--            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos-->
-<!--              cursus lania.</p>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class='col-lg-4 col-sm-6 service-item'>-->
-<!--          <div class='service-icon'>-->
-<!--            <img alt='1' src='/img/services-icons/4.png'>-->
-<!--          </div>-->
-<!--          <div class='service-content'>-->
-<!--            <h4>Fully Qualified</h4>-->
-<!--            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos-->
-<!--              cursus lania.</p>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class='col-lg-4 col-sm-6 service-item'>-->
-<!--          <div class='service-icon'>-->
-<!--            <img alt='1' src='/img/services-icons/5.png'>-->
-<!--          </div>-->
-<!--          <div class='service-content'>-->
-<!--            <h4>Flexible Schedule</h4>-->
-<!--            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos-->
-<!--              cursus lania.</p>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class='col-lg-4 col-sm-6 service-item'>-->
-<!--          <div class='service-icon'>-->
-<!--            <img alt='1' src='/img/services-icons/6.png'>-->
-<!--          </div>-->
-<!--          <div class='service-content'>-->
-<!--            <h4>Chemistry Lab</h4>-->
-<!--            <p>Lorem ipsum dolor sitdo amet, consectetur dont adipis elit. Vivamus interdum ultrices augue. Aenean dos-->
-<!--              cursus lania.</p>-->
-<!--          </div>-->
-<!--        </div>-->
+      <div class='section-title text-center'>
+        <h3>Algumas Aplicações</h3>
       </div>
+      <client-only>
+        <carousel
+          v-bind="{
+            loop: true,
+            nav: false,
+            dots: true,
+            mouseDrag: false,
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+            autoplay: true,
+            autoplayHoverPause: true,
+            responsive: {0:{items:1, loop: true},768:{items:3, loop: products.length > 3}},
+          }"
+        >
+          <div v-for='product in products' :key='product.name' class='row'>
+            <div class='col-sm-12 service-item'>
+              <a :href='product.url' target='_blank' rel='noreferrer' class='service-icon'>
+                <img :alt='`Logo ${product.name}`' :src='product.image'>
+              </a>
+              <div class='service-content'>
+                <h4>{{ product.name }}</h4>
+                <p>{{ product.text }}</p>
+              </div>
+            </div>
+          </div>
+        </carousel>
+      </client-only>
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'service'
+  name: 'service',
+  data: () => ({
+    products: [
+      {
+        // name: 'IFG Produz',
+        url: 'https://ifgproduz.ifg.edu.br',
+        image: '/img/services/logo-produz.svg',
+        text: 'Sistema de Recomendação para os pesquisadores do IFG sobre as pesquisas realizadas.'
+      },
+      { name: 'Produto X', image: '/img/services/logo-produz.svg', text: '' },
+      { name: 'Produto Y', image: '/img/services/logo-produz.svg', text: '' }
+    ]
+  })
 }
 </script>
 

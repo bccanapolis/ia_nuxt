@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "ngrok": "ngrok http 3000"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
@@ -17,6 +18,7 @@
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "fibers": "^5.0.0",
+    "ngrok": "^4.0.1",
     "prettier": "^2.2.1",
     "sass": "^1.32.8",
     "sass-loader": "10",

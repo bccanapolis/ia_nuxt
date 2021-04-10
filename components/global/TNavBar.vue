@@ -27,8 +27,8 @@ export default {
     links: [
       { name: 'Home', route: '/' },
       { name: 'Cursos', route: '/cursos' },
-      { name: 'Projetos', route: '/projetos' },
-      { name: 'Professores', route: '/professores' },
+      { name: 'Linhas de Atuação', route: '/linhas-atuacao' },
+      // { name: 'Professores', route: '/professores' },
       { name: 'Pós Graduação', route: '/pos-graduacao' },
     ],
   }),

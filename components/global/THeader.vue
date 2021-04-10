@@ -23,10 +23,10 @@
         <div class="hf-item ml-0">
           <nuxt-link to="/">
             <a
-              class="text-dark font-weight-bold align-baseline"
-              style="font-size: 2rem"
+              class="text-dark font-weight-bold"
+              style="font-size: 1.7rem"
             >
-              Inteligência <span style="color: #045b6e">Artificial</span>
+              Inteligência <span style="color: #045b6e">Artificial</span> no IFG
             </a>
           </nuxt-link>
         </div>
