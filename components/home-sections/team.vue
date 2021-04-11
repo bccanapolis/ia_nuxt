@@ -8,7 +8,7 @@
       <client-only>
         <carousel
           v-bind="{
-            loop: true,
+            loop: false,
             nav: false,
             dots: true,
             mouseDrag: false,
@@ -47,7 +47,7 @@
                     >
                       <img
                         src='/img/icons/icon_lattes.svg'
-                        style='width: 18px; height: 18px'
+                        style='width: 18px; height: 18px;'
                         :alt='`ícone lattes`'
                       />
                     </a>
@@ -141,7 +141,7 @@ export default {
         ]
       },
       {
-        name: 'Raphael de Aquino Gomes Doutorado',
+        name: 'Dr. Raphael de Aquino Gomes',
         photo: '/img/member/raphael.gif',
         disciplines: ['Computação em Nuvem', 'Internet das Coisas'],
         socials: [
