@@ -547,5 +547,11 @@
 import team from '~/components/home-sections/team.vue'
 export default {
   components: { team },
+  head: {
+    title: 'Pós-Graduação | IA no IFG',
+    link: [
+      { rel: 'canonical', href: 'https://ia.bcc.anapolis.ifg.edu.br/pos-graduacao' },
+    ]
+  }
 }
 </script>

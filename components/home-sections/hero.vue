@@ -6,6 +6,7 @@
     nav: false,
     dots: true,
     mouseDrag: true,
+    duration: 10000,
     animateOut: 'fadeOut',
     animateIn: 'fadeIn',
     items: 1,

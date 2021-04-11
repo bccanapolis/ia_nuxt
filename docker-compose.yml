@@ -16,6 +16,7 @@ services:
       HTTP_PORT: 6001
       LETSENCRYPT_HOST: ia.bcc.anapolis.ifg.edu.br
       LETSENCRYPT_EMAIL: "bcc@gmail.com"
+      URL: "https://ia.bcc.anapolis.ifg.edu.br/"
 
 networks:
   default:

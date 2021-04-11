@@ -19,7 +19,7 @@
           <div v-for='partner in partners' :key='partner.name' class='row'>
             <div class='col-12'>
               <div class='partner'>
-                <img class='partner-pic' loading='eager' :src='partner.image' alt=''>
+                <img class='partner-pic' loading='eager' :src='partner.image' :alt='`Logotipo ${partner.name}`'>
                 <h5>{{ partner.name }}</h5>
               </div>
             </div>
@@ -36,7 +36,7 @@ export default {
   name: 'partners',
   data: () => ({
     partners: [{ name: 'EMBRAPII', image: '/img/partners/logo-embrapii-square.png' }, {
-      name: 'AWS Amazon',
+      name: 'Amazon Web Services',
       image: '/img/partners/1200px-Amazon_Web_Services_Logo.svg.png'
     }, { name: 'TCE-GO', image: '/img/partners/associado-titular-logo-tce-go.png' }]
   })

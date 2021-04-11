@@ -3,7 +3,7 @@
     <Hero />
     <Service />
     <News />
-<!--    <Definition />-->
+    <!--    <Definition />-->
     <Team class='spad' :members='members' title='Professores da Área de IA' />
     <Partners />
   </div>
@@ -23,6 +23,16 @@ export default {
   data: () => ({
     members: [
       {
+        name: 'Msc. Alexandre Bellezi José',
+        photo: '/img/member/alexandre.jpeg',
+        disciplines: ['Internet das Coisas', 'Engenharia de Software'],
+        socials: [
+          { url: 'http://lattes.cnpq.br/9765585618707211', type: 'lattes' },
+          { url: '', type: 'lattes' },
+          { url: '', type: 'lattes' }
+        ]
+      },
+      {
         name: 'Dr. Hugo Vinícius Leão e Silva',
         photo: '/img/member/hugo.jpg',
         disciplines: ['Processamento de Imagens 2D/3D', 'Computação em Nuvem'],
@@ -32,7 +42,9 @@ export default {
           { url: '', type: 'envelope' }
         ]
       }
+
     ]
-  })
+  }),
+
 }
 </script>

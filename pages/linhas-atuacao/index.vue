@@ -19,6 +19,8 @@
               independentemente de suas fontes. No IFG essa linha de pesquisa tem conduzido a execução de vários
               projetos, como destaque de: Simulador multiagente para o mercado de energia, Otimizadores para despacho de
               usinas e Otimizador de gestão de contratos bilaterais no mercado de energia.</p>
+            <p>Os projetos desenvolvidos no IFG tem como foco o desenvolvimento de soluções de energias provindas de
+              fontes renováveis, buscando alternativas para promover o desenvolvimento de processos sustentáveis</p>
             <h5 class='pt-4'>Inteligência Logística</h5>
             <p>Inteligência Logística no Armazenamento e Movimentação de recursos materiais utilizando IA - (P&D CELG
               D.)</p>
@@ -41,6 +43,7 @@
               espalhados nas ditas clouds, se mostrar uma combinação bastante adequada. É com essas demandas que nossos
               professores têm trabalhado em projetos como: Sistemas Tutores Inteligentes utilizando Redes Neurais SOM e
               Treinamento Automatizado utilizando conhecimento do Especialista e Mapas de Kohonen.</p>
+            <p>Outro elemento pesquisado é a alocação eficiente de recursos em nuvem, visando otimização de custos</p>
             <h5 class='pt-4'>Inteligência na Agropecuária</h5>
             <p>Residindo em um estado de forte ação na agropecuária, se torna quase que uma responsabilidade nossa
               avançarmos em aplicações em que a IA possa contribuir. Estas podem ocorrer de diversas formas, seja na
@@ -68,6 +71,12 @@
 
 <script>
 export default {
-  name: 'Projetos'
+  name: 'Projetos',
+  head: {
+    title: 'Linhas de Atuação | IA no IFG',
+    link: [
+      { rel: 'canonical', href: 'https://ia.bcc.anapolis.ifg.edu.br/linhas-atuacao' },
+    ]
+  }
 }
 </script>

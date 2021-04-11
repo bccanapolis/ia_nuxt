@@ -30,5 +30,11 @@
 <script>
 export default {
   name: 'Cursos',
+  head: {
+    title: 'Cursos | IA no IFG',
+    link: [
+      { rel: 'canonical', href: 'https://ia.bcc.anapolis.ifg.edu.br/cursos' },
+    ]
+  }
 }
 </script>

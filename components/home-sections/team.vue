@@ -26,7 +26,7 @@
                   class='member-pic'
                   loading='eager'
                   :src='member.photo'
-                  alt=''
+                  :alt='`Foto ${member.name}`'
                 />
                 <h5>{{ member.name }}</h5>
                 <p
@@ -48,6 +48,7 @@
                       <img
                         src='/img/icons/icon_lattes.svg'
                         style='width: 18px; height: 18px'
+                        :alt='`ícone lattes`'
                       />
                     </a>
                     <a
@@ -84,23 +85,12 @@ export default {
     team: [
       {
         name: 'Msc. Alessandro Rodrigues e Silva',
-        photo:
-          'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4775630T4',
+        photo: '/img/member/alessandro.gif',
         disciplines: ['Processamento de Imagens 2D/3D', 'Computação em Nuvem'],
         socials: [
           { url: 'http://lattes.cnpq.br/6278694958208888', type: 'lattes' },
           { url: '', type: 'linkedin' },
           { url: '', type: 'envelope' }
-        ]
-      },
-      {
-        name: 'Msc. Alexandre Bellezi José',
-        photo: '/img/member/alexandre.jpeg',
-        disciplines: ['Internet das Coisas', 'Engenharia de Software'],
-        socials: [
-          { url: 'http://lattes.cnpq.br/9765585618707211', type: 'lattes' },
-          { url: '', type: 'lattes' },
-          { url: '', type: 'lattes' }
         ]
       },
       {
@@ -116,7 +106,7 @@ export default {
       {
         name: 'Dr. Eduardo Noronha de Andrade Freitas',
         photo:
-          'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4755037J2',
+          '/img/member/eduardo.gif',
         disciplines: [
           'Pesquisa Operacional Aplicada',
           'Engenharia de Software Baseada em Busca'
@@ -129,8 +119,7 @@ export default {
       },
       {
         name: 'Dra. Kátia Cilene Costa Fernandes',
-        photo:
-          'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4720599Y3',
+        photo: '/img/member/katia.gif',
         disciplines: ['Pesquisa Operacional', 'Matemática Computacional'],
         socials: [
           { url: 'http://lattes.cnpq.br/8575752368239596', type: 'lattes' },
@@ -152,9 +141,8 @@ export default {
         ]
       },
       {
-        name: 'Dr. Raphael de Aquino Gomes Doutorado',
-        photo:
-          'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4130492D0',
+        name: 'Raphael de Aquino Gomes Doutorado',
+        photo: '/img/member/raphael.gif',
         disciplines: ['Computação em Nuvem', 'Internet das Coisas'],
         socials: [
           { url: 'http://lattes.cnpq.br/4136576326278536', type: 'lattes' },
@@ -164,8 +152,7 @@ export default {
       },
       {
         name: 'Dr. Sérgio Daniel Canuto',
-        photo:
-          'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4230611A6',
+        photo: '/img/member/sergio.gif',
         disciplines: ['Recuperação de Informação', 'Aprendizado de Máquina'],
         socials: [
           { url: 'http://lattes.cnpq.br/5172447060300953', type: 'lattes' },
@@ -175,8 +162,7 @@ export default {
       },
       {
         name: 'Dr. Sirlon Diniz de Carvalho',
-        photo:
-          'http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4738222Z1',
+        photo: '/img/member/sirlon.gif',
         disciplines: ['Inteligência de Negócios'],
         socials: [
           { url: 'http://lattes.cnpq.br/5607449747114793', type: 'lattes' },
@@ -189,7 +175,7 @@ export default {
   props: {
     members: {
       type: Array,
-      default: []
+      default: () => ([])
     },
     title: {
       type: String,
