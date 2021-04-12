@@ -141,6 +141,16 @@ export default {
         ]
       },
       {
+        name: 'Msc. Otávio Calaça Xavier',
+        photo: '/img/member/otavio.gif',
+        disciplines: ['Web Semântica', 'Redes Neurais Profundas'],
+        socials: [
+          { url: 'http://lattes.cnpq.br/7603465099889835', type: 'lattes' },
+          { url: '', type: 'linkedin' },
+          { url: '', type: 'envelope' }
+        ]
+      },
+      {
         name: 'Dr. Raphael de Aquino Gomes',
         photo: '/img/member/raphael.gif',
         disciplines: ['Computação em Nuvem', 'Internet das Coisas'],

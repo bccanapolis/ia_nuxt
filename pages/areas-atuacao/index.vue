@@ -11,6 +11,9 @@
       <div class='container'>
         <div class='section-title text-center'>
           <h3>Áreas de Atuação</h3>
+          <p class='text-start'>
+            Os docentes do Instituto Federal de Goiás têm atuado nas diversas áreas da Inteligência Artificial, seja de forma aplicada ou na criação de novos algoritmos. Abaixo destacamos algumas destas areas e projetos.
+          </p>
         </div>
         <div class='row'>
           <div class='col-12 about-text'>
