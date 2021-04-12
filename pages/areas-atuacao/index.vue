@@ -12,7 +12,8 @@
         <div class='section-title text-center'>
           <h3>Áreas de Atuação</h3>
           <p class='text-start'>
-            Os docentes do Instituto Federal de Goiás têm atuado nas diversas áreas da Inteligência Artificial, seja de forma aplicada ou na criação de novos algoritmos. Abaixo destacamos algumas destas areas e projetos.
+            Os docentes do Instituto Federal de Goiás têm atuado nas diversas áreas da Inteligência Artificial, seja de
+            forma aplicada ou na criação de novos algoritmos. Abaixo destacamos algumas destas areas e projetos.
           </p>
         </div>
         <div class='row'>
@@ -26,9 +27,9 @@
               Simulador multiagente para o mercado de energia, Otimizadores para despacho de usinas e Otimizador de
               gestão de contratos bilaterais no mercado de energia.
             </p>
-<!--            <h5 class='pt-4'>Inteligência Logística</h5>-->
-<!--            <p>Inteligência Logística no Armazenamento e Movimentação de recursos materiais utilizando IA - (P&D CELG-->
-<!--              D.). <strong>ALGUM PROFESSOR PODERIA COMPLETAR ESSA PARTE?</strong></p>-->
+            <!--            <h5 class='pt-4'>Inteligência Logística</h5>-->
+            <!--            <p>Inteligência Logística no Armazenamento e Movimentação de recursos materiais utilizando IA - (P&D CELG-->
+            <!--              D.). <strong>ALGUM PROFESSOR PODERIA COMPLETAR ESSA PARTE?</strong></p>-->
             <h5 class='pt-4'>Processamento de Linguagem Natural</h5>
             <p>Na história da Inteligência Artificial, o pesquisador Alan Turing propôs um importante teste nos anos 50
               (chamado de teste de Turing), o objetivo era avaliar a capacidade da máquina de alcançar a inteligência
@@ -49,11 +50,12 @@
               professores têm trabalhado em projetos como: Alocação eficiente de recursos em nuvem (visando otimização
               de custos), Sistemas tutores inteligentes utilizando redes neurais SOM e Treinamento automatizado
               utilizando conhecimento do especialista e mapas de Kohonen.</p>
-            <h5 class='pt-4'>Inteligência na Agropecuária</h5>
-            <p>Residindo em um estado de forte ação na agropecuária, se torna quase que uma responsabilidade nossa
-              avançarmos em aplicações em que a IA possa contribuir. Estas podem ocorrer de diversas formas, seja na
-              criação de animais como em plantações. Alguns dos projetos de destaque de nossos professores são: Sistema
-              Inteligente de Apoio ao Pastoreio de Bovinos. <strong>EDUARDO VC TEM PROJETO AQUI, CORRETO?</strong></p>
+            <h5 class='pt-4'>Pecuária 4.0</h5>
+
+            <p>Desenvolvimento de soluções tecnológicas inovadoras explorando a produção, análise e atuação baseadas em
+              modelos inteligentes, visando agregar valor nos diferentes estágios da cadeia produtiva do agronegócio.
+              Alguns projetos/produtos de maior destaque: Predição do preço pago ao produtor de leite, reconhecimento de
+              animais por imagem, otimização de nutricional, detecção de anomalias baseadas no comportamento animal.</p>
             <h5 class='pt-4'>Aprendizado de Máquina</h5>
             <p>Em meio a tantas aplicações, existe sempre a base, os fundamentos que permitem serem aplicados. Nossos
               professores também possuem forte contribuição na construção de novos algoritmos, seja para Classificação
@@ -79,12 +81,12 @@
               contexto, membros da equipe já atuaram em projetos como: O Uso de Soluções Multiagente para Refinar o
               Cadastro Técnico Georrefenciado em uma Distribuidora de Energia (Celg D) e Gestão Inteligente de
               Armazenamento e Movimentação de Recursos Materiais Utilizando RFID, IA e GPS (Enel).</p>
-<!--            <h5 class='pt-4 text-center'>Produção Bibliográfica dos Professores Envolvidos</h5>-->
-<!--            <img-->
-<!--              src='/img/projetos/img_producao.svg'-->
-<!--              style='width: 100%'-->
-<!--              alt='Produção do grupo de professores'-->
-<!--            />-->
+            <!--            <h5 class='pt-4 text-center'>Produção Bibliográfica dos Professores Envolvidos</h5>-->
+            <!--            <img-->
+            <!--              src='/img/projetos/img_producao.svg'-->
+            <!--              style='width: 100%'-->
+            <!--              alt='Produção do grupo de professores'-->
+            <!--            />-->
           </div>
         </div>
       </div>

@@ -108,8 +108,7 @@ export default {
         photo:
           '/img/member/eduardo.gif',
         disciplines: [
-          'Pesquisa Operacional Aplicada',
-          'Engenharia de Software Baseada em Busca'
+          'Precisão (Pecuária 4.0)','Search Based Software Engineering (SBSE)'
         ],
         socials: [
           { url: 'http://lattes.cnpq.br/8639235593693663', type: 'lattes' },
