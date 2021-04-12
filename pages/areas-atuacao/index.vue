@@ -4,26 +4,28 @@
       <div class='container'>
         <nuxt-link to='/'><i class='fa fa-home'></i> Home</nuxt-link>
         <i class='fa fa-angle-right'></i>
-        <span>Linhas de Atuação</span>
+        <span>Áreas de Atuação</span>
       </div>
     </div>
     <section class='about-section spad pt-0'>
       <div class='container'>
         <div class='section-title text-center'>
-          <h3>Linhas de Atuação</h3>
+          <h3>Áreas de Atuação</h3>
         </div>
         <div class='row'>
           <div class='col-12 about-text'>
             <h5>Inteligência Energética</h5>
             <p>Sendo a Inteligência Artificial uma área pervasiva, nada mais sinérgico que sua a aplicação em energias,
-              independentemente de suas fontes. Seguindo essa linha, os projetos desenvolvidos no IFG têm como foco o
-              desenvolvimento de soluções de energias provindas de fontes renováveis, buscando alternativas para
-              promover o desenvolvimento de processos sustentáveis, alguns dos nossos projetos: Simulador multiagente
-              para o mercado de energia, Otimizadores para despacho de usinas e Otimizador de gestão de contratos
-              bilaterais no mercado de energia.</p>
-            <h5 class='pt-4'>Inteligência Logística</h5>
-            <p>Inteligência Logística no Armazenamento e Movimentação de recursos materiais utilizando IA - (P&D CELG
-              D.). <strong>ALGUM PROFESSOR PODERIA COMPLETAR ESSA PARTE?</strong></p>
+              independentemente de suas fontes. Seguindo essa linha, os projetos desenvolvidos por professores do IFG
+              têm como foco o desenvolvimento de soluções de energias provindas de fontes renováveis, buscando
+              alternativas para promover o desenvolvimento de processos sustentáveis. Estacamos aqui a Unidade EMBRAPII
+              de Eficiência Energética IFG, que tem levantado diversas demandas em IA. Alguns dos nossos projetos:
+              Simulador multiagente para o mercado de energia, Otimizadores para despacho de usinas e Otimizador de
+              gestão de contratos bilaterais no mercado de energia.
+            </p>
+<!--            <h5 class='pt-4'>Inteligência Logística</h5>-->
+<!--            <p>Inteligência Logística no Armazenamento e Movimentação de recursos materiais utilizando IA - (P&D CELG-->
+<!--              D.). <strong>ALGUM PROFESSOR PODERIA COMPLETAR ESSA PARTE?</strong></p>-->
             <h5 class='pt-4'>Processamento de Linguagem Natural</h5>
             <p>Na história da Inteligência Artificial, o pesquisador Alan Turing propôs um importante teste nos anos 50
               (chamado de teste de Turing), o objetivo era avaliar a capacidade da máquina de alcançar a inteligência
@@ -91,7 +93,7 @@
 export default {
   name: 'Projetos',
   head: {
-    title: 'Linhas de Atuação | IA no IFG',
+    title: 'Áreas de Atuação | IA no IFG',
     link: [
       { rel: 'canonical', href: 'https://ia.bcc.anapolis.ifg.edu.br/linhas-atuacao' }
     ]

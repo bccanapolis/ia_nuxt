@@ -29,7 +29,7 @@ export default {
     links: [
       { name: 'Home', route: '/' },
       { name: 'Cursos', route: 'http://cursos.ifg.edu.br/', external: true },
-      { name: 'Linhas de Atuação', route: '/linhas-atuacao' },
+      { name: 'Áreas de Atuação', route: '/areas-atuacao' },
       // { name: 'Professores', route: '/professores' },
       { name: 'Pós Graduação', route: '/pos-graduacao' }
     ]
