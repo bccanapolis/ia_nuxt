@@ -2,13 +2,14 @@
   <section class='news-section pt-0'>
     <div class='container'>
       <div class='section-title text-center'>
-<!--        <h3 class='text-start'>Noticias</h3>-->
+        <!--        <h3 class='text-start'>Noticias</h3>-->
         <!--        <p>The professional standards and expectations</p>-->
       </div>
       <div class='row'>
         <div class='col-lg-12 post-list'>
           <div class='news-item'>
-            <div class='news-thumb' style='background-image: url();'></div>
+            <div class='news-thumb'
+                 style='background-image: url(/img/Destaque-pequeno---Especialização-em-Inteligência-Artificial-Aplicada.png);'></div>
             <div class='news-content'>
               <h3><a href='/pos-graduacao'>Gratuito, o novo curso de Inteligência Artificial Aplicada.</a></h3>
               <!--              <div class='news-meta'>-->
@@ -19,12 +20,12 @@
                 com a capacidade de trabalhar e aplicar as tecnologias mais recentes da área de Inteligência Artificial,
                 Aprendizado de Máquina e Recuperação de Informação.
               </p>
-<!--              <p>-->
-<!--                Durante o curso, os alunos irão desenvolvendo novas habilidades e aprender métodos computacionais para-->
-<!--                gerar padrões e inferências que possam ser aplicados em diversos contextos e negócios. O curso visa-->
-<!--                contribuir para a desenvolvimento socioeconômico e tecnológico da região Centro-Oeste e do Brasil,-->
-<!--                habilitando novos profissionais para atuarem numa das áreas mais pervasivas da computação, a-->
-<!--                Inteligência Artificial.</p>-->
+              <!--              <p>-->
+              <!--                Durante o curso, os alunos irão desenvolvendo novas habilidades e aprender métodos computacionais para-->
+              <!--                gerar padrões e inferências que possam ser aplicados em diversos contextos e negócios. O curso visa-->
+              <!--                contribuir para a desenvolvimento socioeconômico e tecnológico da região Centro-Oeste e do Brasil,-->
+              <!--                habilitando novos profissionais para atuarem numa das áreas mais pervasivas da computação, a-->
+              <!--                Inteligência Artificial.</p>-->
             </div>
           </div>
         </div>
