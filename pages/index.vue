@@ -2,7 +2,7 @@
   <div>
     <Hero />
     <!--    <Service />-->
-    <News />
+    <News class='bg-gray spad' />
     <!--    <Definition />-->
     <Team class='spad' :members='members' title='Professores da Área de IA' />
     <Partners />

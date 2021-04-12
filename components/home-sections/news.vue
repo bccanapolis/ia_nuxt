@@ -1,5 +1,5 @@
 <template>
-  <section class='news-section pt-0'>
+  <section class='news-section'>
     <div class='container'>
       <div class='section-title text-center'>
         <!--        <h3 class='text-start'>Noticias</h3>-->
@@ -9,7 +9,7 @@
         <div class='col-lg-12 post-list'>
           <div class='news-item'>
             <div class='news-thumb'
-                 style='background-image: url(/img/Destaque-pequeno---Especialização-em-Inteligência-Artificial-Aplicada.png);'></div>
+                 style='background-image: url(/img/news.png);'></div>
             <div class='news-content'>
               <h3><a href='/pos-graduacao'>Gratuito, o novo curso de Inteligência Artificial Aplicada.</a></h3>
               <!--              <div class='news-meta'>-->
