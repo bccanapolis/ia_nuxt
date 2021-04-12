@@ -41,8 +41,8 @@ export default {
       // { src: '/js/masonry.pkgd.min.js', defer: true, body: true },
       // { src: '/js/magnific-popup.min.js', defer: true, body: true },
       { src: '/js/bootstrap.js', defer: true, body: true },
-      { src: 'https://www.googletagmanager.com/gtag/js?id=G-GR1F9PKS1D', async: true }
-      // { src: '/js/main.js', defer: true, body: true },
+      { src: 'https://www.googletagmanager.com/gtag/js?id=G-GR1F9PKS1D', async: true },
+      { src: '/js/main.js', defer: true, body: true }
     ]
   },
 

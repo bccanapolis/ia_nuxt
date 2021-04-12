@@ -1,11 +1,10 @@
 <template>
   <nav class='nav-section'>
     <div class='container'>
-      <!-- <div class="nav-right">
-        <a href="#"><i class="fa fa-search"></i></a>
-        <a href="#"><i class="fa fa-shopping-cart"></i></a>
-      </div> -->
-      <ul class='main-menu' style='display: block'>
+      <div class='nav-right'>
+<!--        <a href='#'></a>-->
+      </div>
+      <ul class='main-menu'>
         <li
           :class="$route.path === link.route ? 'active' : ''"
           v-for='link in links'

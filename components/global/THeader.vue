@@ -1,32 +1,32 @@
 <template>
-  <header class="header-section">
-    <div class="container">
+  <header class='header-section'>
+    <div class='container'>
       <a
-        href="http://ifg.edu.br/"
-        target="_blank"
-        class="site-logo text-dark font-weight-bold"
+        href='http://ifg.edu.br/'
+        target='_blank'
+        class='site-logo text-dark font-weight-bold'
       >
         <img
-          src="/img/logo_ifg.svg"
-          style="height: 4rem"
-          alt="Instituto Federal de Goiás"
+          src='/img/logo_ifg.svg'
+          style='height: 4rem'
+          alt='Instituto Federal de Goiás'
         />
       </a>
 
-      <!-- <div class="nav-switch">
-        <i class="fa fa-bars"></i>
-      </div> -->
+      <div class='nav-switch'>
+        <i class='fa fa-bars'></i>
+      </div>
       <div
-        class="header-info d-flex align-items-center float-left float-md-right"
-        style="height: 5rem"
+        class='header-info d-flex align-items-center float-left float-md-right text-start'
+        style='height: 5rem'
       >
-        <div class="hf-item ml-0">
-          <nuxt-link to="/">
+        <div class='hf-item ml-0'>
+          <nuxt-link to='/'>
             <a
-              class="text-dark font-weight-bold"
-              style="font-size: 1.7rem"
+              class='text-dark font-weight-bold'
+              style='font-size: 1.7rem'
             >
-              Inteligência <span style="color: #045b6e">Artificial</span> no IFG
+              Inteligência <span style='color: #045b6e'>Artificial</span> no IFG
             </a>
           </nuxt-link>
         </div>
@@ -53,7 +53,7 @@
 
 <script>
 export default {
-  name: 'THeader',
+  name: 'THeader'
 }
 </script>
 
