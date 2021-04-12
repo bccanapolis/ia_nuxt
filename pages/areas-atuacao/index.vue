@@ -79,12 +79,12 @@
               contexto, membros da equipe já atuaram em projetos como: O Uso de Soluções Multiagente para Refinar o
               Cadastro Técnico Georrefenciado em uma Distribuidora de Energia (Celg D) e Gestão Inteligente de
               Armazenamento e Movimentação de Recursos Materiais Utilizando RFID, IA e GPS (Enel).</p>
-            <h5 class='pt-4 text-center'>Produção Bibliográfica dos Professores Envolvidos</h5>
-            <img
-              src='/img/projetos/img_producao.svg'
-              style='width: 100%'
-              alt='Produção do grupo de professores'
-            />
+<!--            <h5 class='pt-4 text-center'>Produção Bibliográfica dos Professores Envolvidos</h5>-->
+<!--            <img-->
+<!--              src='/img/projetos/img_producao.svg'-->
+<!--              style='width: 100%'-->
+<!--              alt='Produção do grupo de professores'-->
+<!--            />-->
           </div>
         </div>
       </div>
