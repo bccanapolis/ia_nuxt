@@ -317,9 +317,9 @@
                   <tr>
                     <th scope='row'>Departamento Responsável pelo Curso</th>
                     <td>
-                      Goiânia: Departamento de Áreas Acadêmicas I
+                      Goiânia: Departamento de Áreas Acadêmicas IV
                       <br />
-                      Anápolis: Departamento de Áreas Acadêmicas V
+                      Anápolis: Departamento de Áreas Acadêmicas
                     </td>
                   </tr>
                   <tr>
