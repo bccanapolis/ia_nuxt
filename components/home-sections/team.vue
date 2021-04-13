@@ -39,34 +39,43 @@
                   <div
                     class='col-12 d-flex justify-content-center align-items-center'
                   >
-                    <a
-                      :href='member.socials[0].url'
-                      target='_blank'
-                      rel='noreferrer'
-                      title='Lattes'
+                    <template v-for='social in member.socials' v-if='!!social.url '
+
                     >
-                      <img
-                        src='/img/icons/icon_lattes.svg'
-                        style='width: 18px; height: 18px;'
-                        :alt='`ícone lattes`'
-                      />
-                    </a>
-                    <a
-                      :href='member.socials[1].url'
-                      target='_blank'
-                      rel='noreferrer'
-                      title='E-mail'
-                    >
-                      <i class='fa fa-envelope' style='font-size: 18px'></i>
-                    </a>
-                    <a
-                      :href='member.socials[2].url'
-                      target='_blank'
-                      rel='noreferrer'
-                      title='Linkedin'
-                    >
-                      <i class='fa fa-linkedin' style='font-size: 18px'></i>
-                    </a>
+                      <a
+                        v-if='social.type === "lattes"'
+                        :href='social.url'
+                        target='_blank'
+                        rel='noreferrer'
+                        title='Lattes'
+                      >
+                        <img
+                          src='/img/icons/icon_lattes.svg'
+                          style='width: 18px; height: 18px;'
+                          :alt='`ícone lattes`'
+                        />
+                      </a>
+
+                      <a
+                        v-if='social.type === "envelope"'
+                        :href='"mailto:"+social.url'
+                        target='_blank'
+                        rel='noreferrer'
+                        title='E-mail'
+                      >
+                        <i class='fa fa-envelope' style='font-size: 18px'></i>
+                      </a>
+
+                      <a
+                        v-if='social.type === "linkedin"'
+                        :href='"https://linkedin.com/in/"+social.url'
+                        target='_blank'
+                        rel='noreferrer'
+                        title='Linkedin'
+                      >
+                        <i class='fa fa-linkedin' style='font-size: 18px'></i>
+                      </a>
+                    </template>
                   </div>
                 </div>
               </div>
@@ -90,7 +99,7 @@ export default {
         socials: [
           { url: 'http://lattes.cnpq.br/6278694958208888', type: 'lattes' },
           { url: '', type: 'linkedin' },
-          { url: '', type: 'envelope' }
+          { url: 'alessandro.rodrigues@ifg.edu.br', type: 'envelope' }
         ]
       },
       {
@@ -99,8 +108,8 @@ export default {
         disciplines: ['Recuperação de Informação', 'Aprendizado de Máquina'],
         socials: [
           { url: 'http://lattes.cnpq.br/4603724338719739', type: 'lattes' },
-          { url: '', type: 'lattes' },
-          { url: '', type: 'lattes' }
+          { url: '', type: 'linkedin' },
+          { url: 'daniel.sousa@ifg.edu.br', type: 'envelope' }
         ]
       },
       {
@@ -108,12 +117,12 @@ export default {
         photo:
           '/img/member/eduardo.gif',
         disciplines: [
-          'Precisão (Pecuária 4.0)','Search Based Software Engineering (SBSE)'
+          'Precisão (Pecuária 4.0)', 'Search Based Software Engineering (SBSE)'
         ],
         socials: [
           { url: 'http://lattes.cnpq.br/8639235593693663', type: 'lattes' },
-          { url: '', type: 'lattes' },
-          { url: '', type: 'lattes' }
+          { url: 'eduardo-noronha-45616125', type: 'linkedin' },
+          { url: 'eduardo.freitas@ifg.edu.br', type: 'envelope' }
         ]
       },
       {
@@ -122,8 +131,7 @@ export default {
         disciplines: ['Pesquisa Operacional', 'Matemática Computacional'],
         socials: [
           { url: 'http://lattes.cnpq.br/8575752368239596', type: 'lattes' },
-          { url: '', type: 'lattes' },
-          { url: '', type: 'lattes' }
+          { url: 'katia.fernandes@ifg.edu.br', type: 'envelope' }
         ]
       },
       {
@@ -136,7 +144,7 @@ export default {
         socials: [
           { url: 'http://lattes.cnpq.br/0807441004466785', type: 'lattes' },
           { url: 'mailto:luiz.loja@ifg.edu.br', type: 'envelope' },
-          { url: 'https://www.linkedin.com/in/luizloja/', type: 'linkedin' }
+          { url: 'luizloja', type: 'linkedin' }
         ]
       },
       {
@@ -145,8 +153,7 @@ export default {
         disciplines: ['Web Semântica', 'Redes Neurais Profundas'],
         socials: [
           { url: 'http://lattes.cnpq.br/7603465099889835', type: 'lattes' },
-          { url: '', type: 'linkedin' },
-          { url: '', type: 'envelope' }
+          { url: 'otavio.xavier@ifg.edu.br', type: 'envelope' }
         ]
       },
       {
@@ -155,8 +162,8 @@ export default {
         disciplines: ['Computação em Nuvem', 'Internet das Coisas'],
         socials: [
           { url: 'http://lattes.cnpq.br/4136576326278536', type: 'lattes' },
-          { url: '', type: 'linkedin' },
-          { url: '', type: 'envelope' }
+          { url: 'gomesra', type: 'linkedin' },
+          { url: 'raphael.gomes@ifg.edu.br', type: 'envelope' }
         ]
       },
       {
@@ -166,7 +173,7 @@ export default {
         socials: [
           { url: 'http://lattes.cnpq.br/5172447060300953', type: 'lattes' },
           { url: '', type: 'linkedin' },
-          { url: '', type: 'envelope' }
+          { url: 'sergio.canuto@ifg.edu.br', type: 'envelope' }
         ]
       },
       {
@@ -176,7 +183,7 @@ export default {
         socials: [
           { url: 'http://lattes.cnpq.br/5607449747114793', type: 'lattes' },
           { url: '', type: 'linkedin' },
-          { url: '', type: 'envelope' }
+          { url: 'sirlon.carvalho@ifg.edu.br', type: 'envelope' }
         ]
       }
     ]

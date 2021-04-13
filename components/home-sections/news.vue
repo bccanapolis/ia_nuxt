@@ -8,8 +8,11 @@
       <div class='row'>
         <div class='col-lg-12 post-list'>
           <div class='news-item'>
-            <div class='news-thumb'
-                 style='background-image: url(/img/news.png);'></div>
+            <a href='http://selecao.ifg.edu.br/downloads/cod1741/editalaai.pdf'
+               class='font-weight-bolder news-thumb' target='_blank' rel='noreferrer'>
+              <img src='/img/news.png' alt='Processo Seletivo' />
+            </a>
+
             <div class='news-content'>
               <h3><a href='/pos-graduacao'>Gratuito, o novo curso de Inteligência Artificial Aplicada.</a></h3>
               <!--              <div class='news-meta'>-->
@@ -20,6 +23,7 @@
                 com a capacidade de trabalhar e aplicar as tecnologias mais recentes da área de Inteligência Artificial,
                 Aprendizado de Máquina e Recuperação de Informação.
               </p>
+
               <!--              <p>-->
               <!--                Durante o curso, os alunos irão desenvolvendo novas habilidades e aprender métodos computacionais para-->
               <!--                gerar padrões e inferências que possam ser aplicados em diversos contextos e negócios. O curso visa-->
