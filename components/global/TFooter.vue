@@ -108,7 +108,8 @@
       <div class='container'>
         <p>
           Copyright &copy; {{ new Date().getFullYear() }} Todos direitos
-          Reservados | Construído pelo aluno <a href='https://baraus.dev/' target='_blank'>BARAUS</a>
+          Reservados | Construído pelo aluno <a href='https://baraus.dev/?ref=ifg_inteligencia_artificial'
+                                                target='_blank'>BARAUS</a>
         </p>
       </div>
     </div>
