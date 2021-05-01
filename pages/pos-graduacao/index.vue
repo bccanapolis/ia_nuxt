@@ -126,7 +126,7 @@
                   tecnológico da região Centro-Oeste e do Brasil, habilitando novos profissionais para atuarem numa das
                   áreas mais pervasivas da computação, a Inteligência Artificial.
                 </p>
-                <p><a href='http://selecao.ifg.edu.br/downloads/cod1741/editalaai.pdf'
+                <p><a href='http://selecao.ifg.edu.br/site/selecao2.php?codigo=1741&situacao=A&tipo=pos'
                       class='font-weight-bolder'>Edital de Seleção</a></p>
               </div>
               <div
@@ -526,7 +526,7 @@
                   >Resolução 55/2021 - Aprovação no CONSUP</a
                   >
                 </p>
-                <p><a href='http://selecao.ifg.edu.br/downloads/cod1741/editalaai.pdf'
+                <p><a href='http://selecao.ifg.edu.br/site/selecao2.php?codigo=1741&situacao=A&tipo=pos'
                       class='font-weight-bolder'>Edital de Seleção</a></p>
               </div>
             </div>
