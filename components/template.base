@@ -1,0 +1,17 @@
+<template>
+
+</template>
+
+<script>
+export default {
+  name: '',
+  data: {
+    name: '',
+    label: ''
+  }
+}
+</script>
+
+<style scoped>
+
+</style>

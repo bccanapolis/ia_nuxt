@@ -1,3 +1,52 @@
+.capitalize {
+  text-transform: capitalize;
+}
+
+#ementa-table {
+  tr {
+    &[aria-expanded='true'] {
+      .fa {
+        transform: rotate(180deg);
+      }
+    }
+
+    td {
+      .fa {
+        font-size: 0.7rem;
+        transition: transform .1s linear;
+      }
+
+      p.ementa-professor {
+        //font-size: 1.1rem;
+        color: #212529;
+      }
+
+      .ementa-topic {
+        font-size: 0.9rem;
+        margin-bottom: 2px;
+        color: #636363;
+        margin-right: 4px;
+
+        &:after {
+          content: ':';
+        }
+      }
+
+      .ementa-description {
+        color: #212529;
+      }
+
+      .ementa-flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 2rem;
+        row-gap: 0.75rem;
+      }
+    }
+  }
+}
+
+
 @keyframes loader {
   0% {
     -webkit-transform: rotate(0deg);
