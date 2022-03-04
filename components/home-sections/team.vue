@@ -158,28 +158,28 @@ export default {
           { url: 'katia.fernandes@ifg.edu.br', type: 'envelope' }
         ]
       },
-      {
-        name: 'Dr. Luiz Fernando Batista Loja',
-        photo: '/img/member/loja.jpeg',
-        disciplines: [
-          'Programação em Jogos Digitais',
-          'Engenharia de Software'
-        ],
-        socials: [
-          { url: 'http://lattes.cnpq.br/0807441004466785', type: 'lattes' },
-          { url: 'mailto:luiz.loja@ifg.edu.br', type: 'envelope' },
-          { url: 'luizloja', type: 'linkedin' }
-        ]
-      },
-      {
-        name: 'Msc. Otávio Calaça Xavier',
-        photo: '/img/member/otavio.gif',
-        disciplines: ['Web Semântica', 'Redes Neurais Profundas'],
-        socials: [
-          { url: 'http://lattes.cnpq.br/7603465099889835', type: 'lattes' },
-          { url: 'otavio.xavier@ifg.edu.br', type: 'envelope' }
-        ]
-      },
+      // {
+      //   name: 'Dr. Luiz Fernando Batista Loja',
+      //   photo: '/img/member/loja.jpeg',
+      //   disciplines: [
+      //     'Programação em Jogos Digitais',
+      //     'Engenharia de Software'
+      //   ],
+      //   socials: [
+      //     { url: 'http://lattes.cnpq.br/0807441004466785', type: 'lattes' },
+      //     { url: 'mailto:luiz.loja@ifg.edu.br', type: 'envelope' },
+      //     { url: 'luizloja', type: 'linkedin' }
+      //   ]
+      // },
+      // {
+      //   name: 'Msc. Otávio Calaça Xavier',
+      //   photo: '/img/member/otavio.gif',
+      //   disciplines: ['Web Semântica', 'Redes Neurais Profundas'],
+      //   socials: [
+      //     { url: 'http://lattes.cnpq.br/7603465099889835', type: 'lattes' },
+      //     { url: 'otavio.xavier@ifg.edu.br', type: 'envelope' }
+      //   ]
+      // },
       {
         name: 'Dr. Raphael de Aquino Gomes',
         photo: '/img/member/raphael.gif',
@@ -200,19 +200,19 @@ export default {
           { url: 'sergio.canuto@ifg.edu.br', type: 'envelope' }
         ]
       },
-      {
-        name: 'Dr. Sirlon Diniz de Carvalho',
-        photo: '/img/member/sirlon.gif',
-        disciplines: [
-          'Sistemas Tutores Inteligentes',
-          'Inteligência em Negócios'
-        ],
-        socials: [
-          { url: 'http://lattes.cnpq.br/5607449747114793', type: 'lattes' },
-          { url: '', type: 'linkedin' },
-          { url: 'sirlon.carvalho@ifg.edu.br', type: 'envelope' }
-        ]
-      }
+      // {
+      //   name: 'Dr. Sirlon Diniz de Carvalho',
+      //   photo: '/img/member/sirlon.gif',
+      //   disciplines: [
+      //     'Sistemas Tutores Inteligentes',
+      //     'Inteligência em Negócios'
+      //   ],
+      //   socials: [
+      //     { url: 'http://lattes.cnpq.br/5607449747114793', type: 'lattes' },
+      //     { url: '', type: 'linkedin' },
+      //     { url: 'sirlon.carvalho@ifg.edu.br', type: 'envelope' }
+      //   ]
+      // }
     ]
   }),
   props: {

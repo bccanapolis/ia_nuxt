@@ -86,19 +86,19 @@ export default {
           { url: '', type: 'lattes' }
         ]
       },
-      {
-        name: 'Dr. Luiz Fernando Batista Loja',
-        photo: '/img/member/loja.jpeg',
-        disciplines: [
-          'Programação em Jogos Digitais',
-          'Engenharia de Software'
-        ],
-        socials: [
-          { url: 'http://lattes.cnpq.br/0807441004466785', type: 'lattes' },
-          { url: 'mailto:luiz.loja@ifg.edu.br', type: 'envelope' },
-          { url: 'https://www.linkedin.com/in/luizloja/', type: 'linkedin' }
-        ]
-      },
+      // {
+      //   name: 'Dr. Luiz Fernando Batista Loja',
+      //   photo: '/img/member/loja.jpeg',
+      //   disciplines: [
+      //     'Programação em Jogos Digitais',
+      //     'Engenharia de Software'
+      //   ],
+      //   socials: [
+      //     { url: 'http://lattes.cnpq.br/0807441004466785', type: 'lattes' },
+      //     { url: 'mailto:luiz.loja@ifg.edu.br', type: 'envelope' },
+      //     { url: 'https://www.linkedin.com/in/luizloja/', type: 'linkedin' }
+      //   ]
+      // },
       {
         name: 'Dr. Raphael de Aquino Gomes',
         photo: '/img/member/raphael.gif',
@@ -119,16 +119,16 @@ export default {
           { url: '', type: 'envelope' }
         ]
       },
-      {
-        name: 'Dr. Sirlon Diniz de Carvalho',
-        photo: '/img/member/sirlon.gif',
-        disciplines: ['Sistemas Tutores Inteligentes', 'Inteligência em Negócios'],
-        socials: [
-          { url: 'http://lattes.cnpq.br/5607449747114793', type: 'lattes' },
-          { url: '', type: 'linkedin' },
-          { url: '', type: 'envelope' }
-        ]
-      }
+      // {
+      //   name: 'Dr. Sirlon Diniz de Carvalho',
+      //   photo: '/img/member/sirlon.gif',
+      //   disciplines: ['Sistemas Tutores Inteligentes', 'Inteligência em Negócios'],
+      //   socials: [
+      //     { url: 'http://lattes.cnpq.br/5607449747114793', type: 'lattes' },
+      //     { url: '', type: 'linkedin' },
+      //     { url: '', type: 'envelope' }
+      //   ]
+      // }
     ]
   })
 

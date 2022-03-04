@@ -1706,9 +1706,9 @@ ol {
     display: flex;
 
     .news-thumb {
-      height: 320px;
-      width: calc(100% / 12 * 5);
-      max-height: 320px;
+      //height: 320px;
+      width: calc(100% / 12 * 3);
+      //max-height: 320px;
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
@@ -1720,7 +1720,7 @@ ol {
     }
 
     .news-content {
-      width: calc(100% / 12 * 7);
+      width: calc(100% / 12 * 9);
 
       h3 {
         font-size: 29px;

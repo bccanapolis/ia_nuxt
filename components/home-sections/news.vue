@@ -10,7 +10,7 @@
           <div class='news-item'>
             <a href='http://selecao.ifg.edu.br/downloads/cod1741/editalaai.pdf'
                class='font-weight-bolder news-thumb' target='_blank' rel='noreferrer'>
-              <img src='/img/news.png' alt='Processo Seletivo' />
+              <img src='/img/news-2022.jpeg' alt='Processo Seletivo' />
             </a>
 
             <div class='news-content'>
