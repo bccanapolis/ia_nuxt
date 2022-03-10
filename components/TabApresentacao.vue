@@ -18,7 +18,7 @@
     </p>
     <p>
       <a
-        href="http://selecao.ifg.edu.br/site/selecao2.php?codigo=1875&situacao=A&tipo=pos"
+        href="http://ifg.edu.br/estude-no-ifg/selecoes-em-andamento/pos-graduacao"
         class="font-weight-bolder"
         >Edital de Seleção</a
       >
