@@ -41,7 +41,7 @@ export default {
   },
   data: () => ({
     children: {
-      'Anápolis': {
+      "Anápolis": {
         1: [
           {
             name: "Inteligência Artificial (Quinta-feira às 19h, Aula Remota)",
@@ -80,7 +80,7 @@ export default {
             hour: 30,
             teacher: "Dr. Raphael Aquinno",
             menu: "Visão geral dos conceitos de nuvem, principais serviços em nuvem, segurança, arquitetura, monitoramento, preços e suporte; Máquinas virtuais, contêineres, clusters e soluções serverless; Frameworks e soluções de aprendizado de máquina, Big Data e visão computacional em nuvem."
-          },
+          }
         ],
         3: [
           {
@@ -99,7 +99,7 @@ export default {
             name: "Visão Computacional (Sexta-feira, presencial)",
             hour: 30,
             teacher: "Msc. Alessandro Rodrigues e Silva",
-            menu: ""
+            menu: "Aquisição de Imagens, Filtragem no Domínio Espacial e Frequência, Segmentação, Reconhecimento de Padrões, Detecção de Características, Composição de Imagens, Estimação de Movimento, Estimação de profundidade, Imagens sintéticas e Reconstrução 3D."
           }
         ],
         4: [
@@ -123,7 +123,7 @@ export default {
           }
         ]
       },
-      'Goiânia': {
+      "Goiânia": {
         1: [
           {
             name: "Inteligência Artificial",
