@@ -21,7 +21,7 @@
         </div>
       </div>
     </section>
-    <team class='mb-5' title='Professores da Pós'/>
+    <team class='mb-5' title='Professores da Pós' />
   </div>
 </template>
 
@@ -33,6 +33,7 @@ import TabFuncionamentoCurso from '~/components/TabFuncionamentoCurso'
 import TabPerfilEgresso from '~/components/TabPerfilEgresso'
 import TabDisciplinas from '~/components/TabDisciplinas'
 import TabDocumentos from '~/components/TabDocumentos'
+import TabCalendarios from '~/components/TabCalendarios'
 
 export default {
   components: { team },
@@ -44,7 +45,7 @@ export default {
   },
   data: () => ({
     // tabsChildren: [TabEmentas],
-    tabsChildren: [TabApresentacao, TabObjetivos, TabFuncionamentoCurso, TabPerfilEgresso, TabDisciplinas, TabDocumentos],
+    tabsChildren: [TabApresentacao, TabObjetivos, TabFuncionamentoCurso, TabPerfilEgresso, TabDisciplinas, TabCalendarios, TabDocumentos]
   })
 }
 </script>

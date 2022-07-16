@@ -131,7 +131,7 @@ export const members = [
     ],
   },
   {
-    degree: 'Dr.',
+    degree: 'Msc.',
     name: 'Renan Oliveira',
     photo: '/img/member/renan_oliveira.jpeg',
     disciplines: [
