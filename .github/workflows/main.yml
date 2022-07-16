@@ -15,7 +15,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         script: |
-          cd /home/anapolis/IA/ia_manager/ia_nuxt/ && git checkout master && git pull
+          cd /home/devbaraus/ia_nuxt/ && git checkout master && git pull
           docker-compose build
           docker-compose down
           docker-compose up -d
