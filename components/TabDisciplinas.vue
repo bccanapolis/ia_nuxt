@@ -47,7 +47,7 @@ export default {
             name: 'Inteligência Artificial (Quinta-feira às 19h, Aula Remota)',
             hour: 30,
             teacher: 'Dr. Daniel Canedo',
-            menu: 'Histórico e Princípios de IA; Resolução de problemas; Métodos de busca; Heurísticas; Conhecimento e raciocínio; Aprendizado de máquina; Algoritmos Evolutivos e Aplicações de IA.'
+            menu: 'Histórico e Princípios de IA; Resolução de problemas; Métodos de busca; Heurísticas; Conhecimento e raciocínio; Algoritmos Evolutivos e Aplicações de IA.'
           },
           {
             name: 'Linguagem de Programação Aplicada (Sexta-feira, presencial)',
