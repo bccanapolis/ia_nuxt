@@ -119,7 +119,7 @@ export default {
           {
             name: 'Metodologia de Pesquisa Científica (Quinta-feira às 19h, Aula Remota)',
             hour: 30,
-            teacher: 'Diversos professores',
+            teacher: 'Dr. Alan Keller Gomes',
             menu: 'Técnicas para elaboração de projetos e construção de textos que apresentem os resultados Estudo da natureza do conhecimento científico, objetivando a compreensão, a realização de um projeto de pesquisa e a apresentação (escrita e oral) de um trabalho monográfico.'
           }
         ]
