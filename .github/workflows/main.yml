@@ -8,14 +8,16 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-    - name: Deploy Front Website
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        script: |
-          cd /home/devbaraus/ia_nuxt/ && git checkout master && git pull
-          docker-compose build
-          docker-compose down
-          docker-compose up -d
+      - name: Deploy Front Website
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          script: |
+            cd /home/devbaraus/ia_nuxt/ && \
+            git checkout master && \
+            git pull && \
+            docker-compose build && \
+            docker-compose down && \
+            docker-compose up -d
