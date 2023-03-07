@@ -3,8 +3,11 @@
     <h5>Calendários</h5>
     <p>
       <a href='/downloads/CalendarioPos2022.pdf' download
-      >Calendário Acadêmico 2022</a
-      >
+      >Calendário Acadêmico 2022</a>
+    </p>
+    <p>
+      <a href='/downloads/Calendário2023.pdf' download
+      >Calendário Acadêmico 2023</a>
     </p>
   </div>
 </template>
