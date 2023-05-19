@@ -1,23 +1,23 @@
 <template>
   <div>
-    <nav>
-      <div class='nav nav-tabs' id='nav-tab' role='tablist'>
-        <button
-          v-for='(child, index) in Object.keys(children)'
-          :class='`nav-link ${index === 0 ? `active`: ``}`'
-          :id='`nav-${child}-tab`'
-          data-bs-toggle='tab'
-          :data-bs-target='`#nav-${child}`'
-          type='button'
-          role='tab'
-          :aria-controls='`nav-${child}`'
-          aria-selected='true'
-        >
-          <span class='capitalize'>{{ child }}</span>
-        </button>
-      </div>
-    </nav>
-    <div class='tab-content about-text pt-4' id='nav-tabContent'>
+<!--    <nav>-->
+<!--      <div class='nav nav-tabs' id='nav-tab' role='tablist'>-->
+<!--        <button-->
+<!--          v-for='(child, index) in Object.keys(children)'-->
+<!--          :class='`nav-link ${index === 0 ? `active`: ``}`'-->
+<!--          :id='`nav-${child}-tab`'-->
+<!--          data-bs-toggle='tab'-->
+<!--          :data-bs-target='`#nav-${child}`'-->
+<!--          type='button'-->
+<!--          role='tab'-->
+<!--          :aria-controls='`nav-${child}`'-->
+<!--          aria-selected='true'-->
+<!--        >-->
+<!--          <span class='capitalize'>{{ child }}</span>-->
+<!--        </button>-->
+<!--      </div>-->
+<!--    </nav>-->
+<!--    <div class='tab-content about-text pt-4' id='nav-tabContent'>-->
       <div
         v-for='(child, index) in Object.keys(children)'
         :class='`tab-pane fade show ${index === 0 ? `active`: ``}`'
@@ -27,7 +27,7 @@
       >
         <TabDisciplinasCity :modules='children[child]' :city='child' />
       </div>
-    </div>
+<!--    </div>-->
   </div>
 </template>
 
