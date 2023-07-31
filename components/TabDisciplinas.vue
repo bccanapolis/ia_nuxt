@@ -46,7 +46,7 @@ export default {
           {
             name: 'Inteligência Artificial (Quinta-feira às 19h, Aula Remota)',
             hour: 30,
-            teacher: 'Dr. Daniel Canedo',
+            teacher: 'Msc. Roney Lopes Lima',
             menu: 'Histórico e Princípios de IA; Resolução de problemas; Métodos de busca; Heurísticas; Conhecimento e raciocínio; Algoritmos Evolutivos e Aplicações de IA.'
           },
           {
@@ -58,7 +58,7 @@ export default {
           {
             name: 'Estatística Aplicada (Sexta-feira, presencial)',
             hour: 30,
-            teacher: 'Dra. Kátia Cirlene',
+            teacher: 'Msc. Eder Silva de Brito',
             menu: 'Introdução à Estatística: descritiva e inferencial; Estudo de populações e amostras; Introdução às séries estatísticas; Análise de gráficos, histogramas, percentiles e outliers; Probabilidade, variáveis aleatórias, funções de distribuição, análise de variância; Teste de hipóteses, p-Value, teste chi-2, intervalo de confiança, covariância, regressão, correlação e coeficiente de Pearson; Análise de correlação e regressão linear e Introdução aos testes de hipótese com uma amostra.'
           }
         ],
@@ -72,7 +72,7 @@ export default {
           {
             name: 'Machine Learning (Sexta-feira, presencial)',
             hour: 30,
-            teacher: 'Dr. Daniel Xavier de Sousa',
+            teacher: 'Dr. Lucas de Almeida Ribeiro',
             menu: 'Introdução ao aprendizado de máquina e reconhecimento de padrões; Aprendizado supervisionado e não-supervisionado; Tarefas: Regressão, Classificação, Agrupamento e Associação; Técnicas: Máquinas de Vetores de Suporte, Indução de Árvores de Decisão, Ensemble, Regras de Associação e KNN.'
           },
           {
@@ -92,7 +92,7 @@ export default {
           {
             name: 'Modelagem e Otimização Aplicada (Quinta-feira às 19h, Aula Remota)',
             hour: 30,
-            teacher: 'Dra. Kátia Cirlene e Dr. Eduardo Noronha',
+            teacher: 'Dr. Daywes Pinheiro Neto',
             menu: 'Modelagem matemática de problemas; estudo de problemas e soluções com programação: linear, inteira, inteira mista, e não linear;Análise de sensibilidade, modelos de simulação (determinístico e estocástico);Problemas multiobjetivo; solvers e técnicas de solução.'
           },
           {
