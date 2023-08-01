@@ -4,7 +4,7 @@ export const members = [{
   degree: 'Dr.',
   name: 'Alan Keller Gomes',
   photo: '/img/member/alankeller.png',
-  disciplines: ['Aprendizado de Máquina', 'Metodologias de Pesquisa e Desenvolvimento em IA',],
+  disciplines: ['Aprendizado de Máquina', 'IA eXplicável',],
   socials: [{url: 'http://lattes.cnpq.br/0598533987527432', type: 'lattes'}, {
     url: '',
     type: 'linkedin'
