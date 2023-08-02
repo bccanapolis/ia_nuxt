@@ -1,0 +1,282 @@
+[
+  {
+    "degree": "Dr.",
+    "name": "Alan Keller Gomes",
+
+    "disciplines": [
+      "Aprendizado de Máquina",
+      "IA eXplicável"
+    ],
+    "socials": [
+      {
+        "url": "http://lattes.cnpq.br/0598533987527432",
+        "type": "lattes"
+      },
+      {
+        "url": "alankeller@ifg.edu.br",
+        "type": "envelope"
+      }
+    ]
+  },
+  {
+    "degree": "Msc.",
+    "name": "Alessandro Rodrigues e Silva",
+
+    "disciplines": [
+      "Processamento de Imagens 2D/3D",
+      "Computação em Nuvem"
+    ],
+    "socials": [
+      {
+        "url": "http://lattes.cnpq.br/6278694958208888",
+        "type": "lattes"
+      },
+      {
+        "url": "alessandro.rodrigues@ifg.edu.br",
+        "type": "envelope"
+      }
+    ]
+  },
+  {
+    "degree": "Dr.",
+    "name": "Daniel Xavier Souza",
+
+    "disciplines": [
+      "Recuperação de Informação",
+      "Aprendizado de Máquina"
+    ],
+    "socials": [
+      {
+        "url": "http://lattes.cnpq.br/4603724338719739",
+        "type": "lattes"
+      },
+      {
+        "url": "daniel.sousa@ifg.edu.br",
+        "type": "envelope"
+      }
+    ]
+  },
+  {
+    "degree": "Dr.",
+    "name": "Daywes Pinheiro Neto",
+
+    "disciplines": [
+      "Energias Renováveis",
+      "Otimização Aplicada"
+    ],
+    "socials": [
+      {
+        "url": "http://lattes.cnpq.br/3885723899789699",
+        "type": "lattes"
+      },
+      {
+        "url": "daywes.neto@ifg.edu.br",
+        "type": "envelope"
+      }
+    ]
+  },
+  {
+    "degree": "Dr.",
+    "name": "Eduardo Noronha de Andrade Freitas",
+
+    "disciplines": [
+      "Pecuária de Precisão (Pecuária 4.0)",
+      "Search Based Software Engineering (SBSE)"
+    ],
+    "socials": [
+      {
+        "url": "http://lattes.cnpq.br/8639235593693663",
+        "type": "lattes"
+      },
+      {
+        "url": "eduardo-noronha-45616125",
+        "type": "linkedin"
+      },
+      {
+        "url": "eduardo.freitas@ifg.edu.br",
+        "type": "envelope"
+      }
+    ]
+  },
+  {
+    "degree": "Dr.",
+    "name": "Gustavo de Assis Costa",
+
+    "disciplines": [
+      "Web Semântica",
+      "Processamento de Linguagem Natural"
+    ],
+    "socials": [
+      {
+        "url": "http://lattes.cnpq.br/1543798708473666",
+        "type": "lattes"
+      },
+      {
+        "url": "gustavo-de-assis-costa-20733347",
+        "type": "linkedin"
+      },
+      {
+        "url": "gustavo.costa@ifg.edu.br",
+        "type": "envelope"
+      }
+    ]
+  },
+  {
+    "degree": "Dra.",
+    "name": "Kátia Cilene Costa Fernandes",
+
+    "disciplines": [
+      "Pesquisa Operacional",
+      "Matemática Computacional"
+    ],
+    "socials": [
+      {
+        "url": "http://lattes.cnpq.br/8575752368239596",
+        "type": "lattes"
+      },
+      {
+        "url": "katia.fernandes@ifg.edu.br",
+        "type": "envelope"
+      }
+    ]
+  },
+  {
+    "degree": "Dr.",
+    "name": "Lucas de Almeida Ribeiro",
+
+    "disciplines": [
+      "Aprendizado de Máquina",
+      "Inteligência de Negócios"
+    ],
+    "socials": [
+      {
+        "url": "http://lattes.cnpq.br/1560906170071960",
+        "type": "lattes"
+      },
+      {
+        "url": "lucas.ribeiro@ifg.edu.br",
+        "type": "envelope"
+      }
+    ]
+  },
+  {
+    "degree": "Msc.",
+    "name": "Eder Silva de Brito ",
+
+    "disciplines": [
+      "Estatística Aplicada"
+    ],
+    "socials": [
+      {
+        "url": "http://lattes.cnpq.br/0791900403733039",
+        "type": "lattes"
+      },
+      {
+        "url": "eder.brito@ifg.edu.br",
+        "type": "envelope"
+      }
+    ]
+  },
+  {
+    "degree": "Dr.",
+    "name": "Raphael de Aquino Gomes",
+
+    "disciplines": [
+      "Computação em Nuvem",
+      "Internet das Coisas"
+    ],
+    "socials": [
+      {
+        "url": "http://lattes.cnpq.br/4136576326278536",
+        "type": "lattes"
+      },
+      {
+        "url": "gomesra",
+        "type": "linkedin"
+      },
+      {
+        "url": "raphael.gomes@ifg.edu.br",
+        "type": "envelope"
+      }
+    ]
+  },
+  {
+    "degree": "Dr.",
+    "name": "Sérgio Daniel Canuto",
+
+    "disciplines": [
+      "Recuperação de Informação",
+      "Aprendizado de Máquina"
+    ],
+    "socials": [
+      {
+        "url": "http://lattes.cnpq.br/5172447060300953",
+        "type": "lattes"
+      },
+      {
+        "url": "sergio.canuto@ifg.edu.br",
+        "type": "envelope"
+      }
+    ]
+  },
+  {
+    "degree": "Dr.",
+    "name": "Leandro Alexandre",
+
+    "disciplines": [
+      "Redes 5G/6G",
+      "Computação em Nuvem e em Borda"
+    ],
+    "socials": [
+      {
+        "url": "https://www.linkedin.com/in/leandro-alexandre-57aa0b195",
+        "type": "linkedin"
+      }
+    ]
+  },
+  {
+    "degree": "Msc.",
+    "name": "Renan Oliveira",
+
+    "disciplines": [
+      "Recuperação de Informação",
+      "Inteligência Artificial Aplicada"
+    ],
+    "socials": [
+      {
+        "url": "https://www.linkedin.com/in/renan-oliveira-22761919/",
+        "type": "linkedin"
+      }
+    ]
+  },
+  {
+    "degree": "Dr.",
+    "name": "Daniel Canedo",
+
+    "disciplines": [
+      "Intrusion Detection System",
+      "Redes As Hoc"
+    ],
+    "socials": [
+      {
+        "url": "https://www.linkedin.com/in/renan-oliveira-22761919/",
+        "type": "linkedin"
+      }
+    ]
+  },
+  {
+    "degree": "Msc.",
+    "name": "Alexandre Bellezi José",
+
+    "disciplines": [
+      "Internet das Coisas",
+      "Engenharia de Software"
+    ],
+    "socials": [
+      {
+        "url": "http://lattes.cnpq.br/9765585618707211",
+        "type": "lattes"
+      }
+    ]
+  }
+]

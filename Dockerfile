@@ -1,8 +1,8 @@
 FROM node:12-alpine
 
 # create destination directory
-RUN mkdir -p /usr/src/nuxt-app
-WORKDIR /usr/src/nuxt-app
+RUN mkdir -p /app
+WORKDIR /app
 
 # update and install dependency
 RUN apk update && apk upgrade
@@ -10,7 +10,7 @@ RUN apk add git
 RUN apk add yarn
 
 # copy the app, note .dockerignore
-COPY . /usr/src/nuxt-app/
+COPY . .
 RUN yarn install
 
 # build necessary, even if no static files are needed,

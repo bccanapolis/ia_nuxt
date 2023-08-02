@@ -5,10 +5,9 @@ services:
     build: .
     container_name: ia_front
     volumes:
-      - ./libs:/usr/src/nuxt-app/libs
-      - ./static:/usr/src/nuxt-app/static
-      - ./pages:/usr/src/nuxt-app/pages
-      - ./components:/usr/src/nuxt-app/components
+      - ./src:/app/src
+      - ./nuxt.config.js:/app/nuxt.config.js
+      - ./.env:/app/.env
     restart: always
     ports:
       - "6001:6001"
