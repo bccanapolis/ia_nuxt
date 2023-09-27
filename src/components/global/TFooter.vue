@@ -5,11 +5,7 @@
         <div class='col-sm-6 col-lg-6 footer-widget'>
           <div class='about-widget'>
             <a class='site-logo text-dark font-weight-bold' href='index-2.html'>
-              <img
-                src='/img/logo_ifg_light.svg'
-                style='height: 4rem'
-                alt='Instituto Federal de Goiás'
-              />
+              <img src='/img/logo_ifg_light.svg' style='height: 4rem' alt='Instituto Federal de Goiás' />
             </a>
             <!-- <p>
               orem ipsum dolor sit amet, consecter adipiscing elite. Donec minos
@@ -108,8 +104,7 @@
       <div class='container'>
         <p>
           Copyright &copy; {{ new Date().getFullYear() }} Todos direitos
-          Reservados | Construído pelo aluno <a href='https://baraus.dev/?ref=ifg_inteligencia_artificial'
-                                                target='_blank'>BARAUS</a>
+          Reservados | Construído pelo aluno <a href='https://baraus.dev/?ref=ia.ifg.edu.br' target='_blank'>BARAUS</a>
         </p>
       </div>
     </div>
