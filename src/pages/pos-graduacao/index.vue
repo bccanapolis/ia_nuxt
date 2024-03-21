@@ -44,7 +44,7 @@ export default {
     ]
   },
   async asyncData({$axios}) {
-    const {data: members} = await (await $axios.get(`/items/professor?filter[status][_eq]=published&sort=name`)).data
+    const {data: members} = await (await $axios.get(`/items/professor?fields=*,user.first_name,user.last_name,user.avatar.id&sort=user.first_name&filter[tags][_contains]=ia`)).data
 
     return {
       members

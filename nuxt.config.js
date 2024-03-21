@@ -64,7 +64,7 @@ export default {
   buildModules: [],
 
   publicRuntimeConfig: {
-    apiEndpoint: process.env.PUBLIC_API_ENDPOINT || 'https://api.ia.bcc.ifg.edu.br'
+    apiEndpoint: process.env.PUBLIC_API_ENDPOINT || 'https://api.bcc.ifg.edu.br'
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules

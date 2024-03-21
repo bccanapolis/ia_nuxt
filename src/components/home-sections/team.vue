@@ -3,7 +3,6 @@
     <div class='container'>
       <div class='section-title text-center'>
         <h3>{{ title }}</h3>
-        <!--        <p>The professional standards and expectations</p>-->
       </div>
       <client-only>
         <carousel
@@ -24,16 +23,17 @@
               <div class='member'>
                 <img
                   class='member-pic'
+                  v-if='member.user.avatar'
                   loading='eager'
-                  :src='`${apiEndpoint}/assets/${member.photo}/&format=webp`'
+                  :src='`${apiEndpoint}/assets/${member.user.avatar.id}?format=webp`'
                   :alt='`Foto ${member.name}`'
                 />
-                <h5><span style="text-transform: capitalize">{{ member.degree }}</span>. {{ member.name }}</h5>
+                <h5><span style="text-transform: capitalize">{{ member.degree }}</span>. {{ member.user.first_name }} {{ member.user.last_name }}</h5>
                 <p
-                  v-for='discipline in member.disciplines'
+                  v-for='{name} in member.subjects'
                   :key='Math.random() * 100000'
                 >
-                  {{ discipline }}
+                  {{ name }}
                 </p>
                 <div class='row mt-2'>
                   <div
@@ -92,7 +92,7 @@
 export default {
   name: 'team',
   data: () => ({
-    apiEndpoint: 'https://api.ia.bcc.ifg.edu.br'
+    apiEndpoint: 'https://api.bcc.ifg.edu.br'
   }),
   props: {
     members: {
