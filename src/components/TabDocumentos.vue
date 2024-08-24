@@ -1,6 +1,12 @@
 <template>
   <div>
     <h5>Documentos</h5>
+
+    <p>
+      <a href="/downloads/formulario-solicitacao-de-banca.docx" download
+        >Formulário de Solicitação de Banca</a
+      >
+    </p>
     <p>
       <a href="/downloads/PPC%20-%20Pós%20IA2_Revisao%20-%20FINAL.pdf" download
         >Projeto Pedagógico do Curso</a
@@ -28,9 +34,7 @@
       >
     </p>
     <p>
-      <a
-        href="/downloads/TermoOrientação.docx"
-        class="font-weight-bolder"
+      <a href="/downloads/TermoOrientação.docx" class="font-weight-bolder"
         >Modelo para Termo de Orientação</a
       >
     </p>
