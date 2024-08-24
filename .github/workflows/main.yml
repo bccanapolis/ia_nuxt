@@ -2,7 +2,9 @@ name: Deploy to IFG Anápolis BCC
 
 on:
   push:
-    branches: [ master ]
+    branches: 
+      - main
+      - master
 
 jobs:
   deploy:
@@ -15,9 +17,8 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            cd /home/devbaraus/ia_nuxt/ && \
-            git checkout master && \
-            git pull && \
-            docker compose build --no-cache && \
-            docker compose down && \
+            cd /home/devbaraus/ia_nuxt/ &&
+            git pull &&
+            docker compose build --no-cache &&
+            docker compose down &&
             docker compose up -d
