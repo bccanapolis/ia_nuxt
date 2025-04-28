@@ -44,21 +44,21 @@ export default {
       'Anápolis': {
         1: [
           {
-            name: 'Inteligência Artificial (Quinta-feira às 19h, Aula Remota)',
+            name: 'Inteligência Artificial (Sexta-feira, S-403-B, 15h)',
             hour: 30,
-            teacher: 'Msc. Roney Lopes Lima',
+            teacher: 'Prof. Dr. Eduardo Noronha',
             menu: 'Histórico e Princípios de IA; Resolução de problemas; Métodos de busca; Heurísticas; Conhecimento e raciocínio; Algoritmos Evolutivos e Aplicações de IA.'
           },
           {
-            name: 'Linguagem de Programação Aplicada (Sexta-feira, presencial)',
+            name: 'Linguagem de Programação Aplicada (Quinta-feira, S-401-B, 19h)',
             hour: 30,
-            teacher: 'Msc. Renan Rodrigues',
+            teacher: 'Prof. Otávio Calaça',
             menu: 'Programação em Python: introdução ao Python, variáveis, estrutura condicional, estrutura de repetição, vetores, matrizes, listas, funções e dataframes. Principais bibliotecas: Pandas, Numpy e Scypi.'
           },
           {
-            name: 'Estatística Aplicada (Sexta-feira, presencial)',
+            name: 'Estatística Aplicada (Sexta-feira, S-403-B, 19h)',
             hour: 30,
-            teacher: 'Msc. Eder Silva de Brito',
+            teacher: 'Prof. Dr. Eder Silva de Brito',
             menu: 'Introdução à Estatística: descritiva e inferencial; Estudo de populações e amostras; Introdução às séries estatísticas; Análise de gráficos, histogramas, percentiles e outliers; Probabilidade, variáveis aleatórias, funções de distribuição, análise de variância; Teste de hipóteses, p-Value, teste chi-2, intervalo de confiança, covariância, regressão, correlação e coeficiente de Pearson; Análise de correlação e regressão linear e Introdução aos testes de hipótese com uma amostra.'
           }
         ],
